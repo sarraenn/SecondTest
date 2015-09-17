@@ -19,7 +19,7 @@ public void startWebDriver () {
 	
 	driver.get("http://facebook.com");  
     String title = driver.getTitle();                
-    Assert.assertTrue(title.contains("Facebook"));
+    Assert.assertTrue(title.contains("XXXX"));
 }
 	
 	
