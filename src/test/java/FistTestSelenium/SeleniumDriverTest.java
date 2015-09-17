@@ -13,8 +13,9 @@ public void startWebDriver () {
 	
 	WebDriver driver = new FirefoxDriver();
 	
-	driver.navigate().to("http://faacebook.com");
-	driver.close();
+	driver.get("http://facebook.com");  
+    String title = driver.getTitle();                
+    Assert.assertTrue(title.contains("Facebook"));
 }
 	
 	
