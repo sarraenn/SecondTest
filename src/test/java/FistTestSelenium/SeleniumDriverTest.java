@@ -13,7 +13,7 @@ public void startWebDriver () {
 	
 	WebDriver driver = new FirefoxDriver();
 	
-	driver.navigate().to("http://facebook.com");
+	driver.navigate().to("http://faacebook.com");
 	driver.close();
 }
 	
